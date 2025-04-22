@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:netherite_ingot",
+    "minecraft:netherite_scrap",
+    "minecraft:netherite_ingot"
+  ],
+  "result": {
+    "id": "velgear:heavy_netherite",
+    "count": 1
+  }
+}
