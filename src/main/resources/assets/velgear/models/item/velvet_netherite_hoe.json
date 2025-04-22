@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "velgear:item/velvet_netherite_hoe"
+  }
+}

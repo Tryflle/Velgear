@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "velgear:velvet_netherite_sword"
+    "velgear:velvet_netherite_sword",
+    "velgear:velvet_netherite_axe"
   ]
 }

@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "velgear:velvet_netherite_sword",
-    "velgear:velvet_netherite_pickaxe"
+    "velgear:velvet_netherite_pickaxe",
+    "velgear:velvet_netherite_shovel",
+    "velgear:velvet_netherite_axe",
+    "velgear:velvet_netherite_hoe"
   ]
 }
