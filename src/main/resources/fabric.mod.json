@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "velgear",
+  "version": "${version}",
+
+  "name": "Velgear",
+  "description": "Adds new gear to Minecraft.",
+  "authors": [
+    "Tryfle"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "ARR",
+    "icon": "assets/velgear/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.tryfle.velgear.Velgear"
+      }
+    ]
+  },
+  "mixins": [
+    "velgear.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-language-kotlin": ">=${fabric_kotlin_version}"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

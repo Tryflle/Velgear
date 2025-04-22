@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:netherite_scrap",
+    "minecraft:netherite_scrap",
+    "minecraft:amethyst_shard",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "id": "velgear:velvet_dust",
+    "count": 3
+  }
+}

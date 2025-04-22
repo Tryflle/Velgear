@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#A#",
+    "#n#",
+    "#A#"
+  ],
+  "key": {
+    "#": "velgear:velvet_dust",
+    "A": "minecraft:amethyst_shard",
+    "n": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "velgear:velvet_netherite",
+    "count": 1
+  }
+}
