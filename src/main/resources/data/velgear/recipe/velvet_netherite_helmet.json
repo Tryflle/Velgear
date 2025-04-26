@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": "velgear:velvet_netherite"
+  },
+  "result": {
+    "id": "velgear:velvet_netherite_helmet",
+    "count": 1
+  }
+}

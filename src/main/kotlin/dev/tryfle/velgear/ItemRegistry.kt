@@ -1,8 +1,10 @@
 package dev.tryfle.velgear
 
+import dev.tryfle.velgear.armor.VelvetNetheriteArmorMaterial
 import dev.tryfle.velgear.util.ItemType
 import dev.tryfle.velgear.util.ModItems
 import net.minecraft.item.*
+import net.minecraft.item.equipment.EquipmentType
 import net.minecraft.registry.tag.BlockTags
 import net.minecraft.util.Rarity
 
@@ -99,6 +101,50 @@ object ItemRegistry {
             .useCooldown(1.4f)
             .fireproof(),
         ItemType.TOOLS
+    )
+
+    val VELVET_NETHERITE_HELMET: Item = ModItems.register(
+        "velvet_netherite_helmet",
+        { ArmorItem(VelvetNetheriteArmorMaterial.INSTANCE, EquipmentType.HELMET, it) },
+        Item.Settings()
+            .maxCount(1)
+            .rarity(Rarity.EPIC)
+            .maxDamage(VelvetNetheriteArmorMaterial.BASE_DURABILITY)
+            .fireproof(),
+        ItemType.COMBAT
+    )
+
+    val VELVET_NETHERITE_CHESTPLATE: Item = ModItems.register(
+        "velvet_netherite_chestplate",
+        { ArmorItem(VelvetNetheriteArmorMaterial.INSTANCE, EquipmentType.CHESTPLATE, it) },
+        Item.Settings()
+            .maxCount(1)
+            .rarity(Rarity.EPIC)
+            .maxDamage(VelvetNetheriteArmorMaterial.BASE_DURABILITY)
+            .fireproof(),
+        ItemType.COMBAT
+    )
+
+    val VELVET_NETHERITE_LEGGINGS: Item = ModItems.register(
+        "velvet_netherite_leggings",
+        { ArmorItem(VelvetNetheriteArmorMaterial.INSTANCE, EquipmentType.LEGGINGS, it) },
+        Item.Settings()
+            .maxCount(1)
+            .rarity(Rarity.EPIC)
+            .maxDamage(VelvetNetheriteArmorMaterial.BASE_DURABILITY)
+            .fireproof(),
+        ItemType.COMBAT
+    )
+
+    val VELVET_NETHERITE_BOOTS: Item = ModItems.register(
+        "velvet_netherite_boots",
+        { ArmorItem(VelvetNetheriteArmorMaterial.INSTANCE, EquipmentType.BOOTS, it) },
+        Item.Settings()
+            .maxCount(1)
+            .rarity(Rarity.EPIC)
+            .maxDamage(VelvetNetheriteArmorMaterial.BASE_DURABILITY)
+            .fireproof(),
+        ItemType.COMBAT
     )
 
     fun register() {

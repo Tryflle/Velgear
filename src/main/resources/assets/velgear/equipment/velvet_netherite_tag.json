@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "velgear:velvet_netherite_tag"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "velgear:velvet_netherite_tag"
+      }
+    ]
+  }
+}
