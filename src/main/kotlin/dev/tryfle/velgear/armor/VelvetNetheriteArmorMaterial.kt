@@ -19,7 +19,7 @@ import net.minecraft.util.Rarity
 
 object VelvetNetheriteArmorMaterial {
 
-    const val BASE_DURABILITY: Int = 20
+    const val BASE_DURABILITY: Int = 27
 
     val VELVET_NETHERITE_TAG: TagKey<Item> = TagKey.of(RegistryKeys.ITEM, Identifier.of("velgear", "velvet_netherite_tag"))
 
@@ -32,13 +32,13 @@ object VelvetNetheriteArmorMaterial {
         BASE_DURABILITY,
         mapOf(
         EquipmentType.HELMET to 2,
-        EquipmentType.CHESTPLATE to 6,
-        EquipmentType.LEGGINGS to 4,
+        EquipmentType.CHESTPLATE to 7,
+        EquipmentType.LEGGINGS to 6,
         EquipmentType.BOOTS to 2
         ),
         10,
         SoundEvents.ITEM_ARMOR_EQUIP_CHAIN,
-        0.5F,
+        2.5F,
         0F,
         VELVET_NETHERITE_TAG,
         VELVET_NETHERITE_ARMOR_MATERIAL_KEY
